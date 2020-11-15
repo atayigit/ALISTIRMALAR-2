@@ -7,7 +7,7 @@ print("\n")
 print("10 ile 98 arasında bir sayı girerek bilgisayarı yenmeye çalış!")
 print("\n")
 sayac=0
-print(cevap)
+
 
 hile cevap[0]==cevap[1]:
     cevap=str(random.randrange(10,98))
