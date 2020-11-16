@@ -9,7 +9,7 @@ print("\n")
 sayac=0
 
 
-hile cevap[0]==cevap[1]:
+while cevap[0]==cevap[1]:
     cevap=str(random.randrange(10,98))
 #eğer iki basamak da aynı ise tekrar random döndürerek sayıyı farklı bir rastgele sayıya çevirdim      
 denek=int(input("haydi tuttuğum sayıyı tahmin et:"))
