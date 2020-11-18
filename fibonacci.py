@@ -12,8 +12,7 @@ def fibonacci(n):
         
 n=int (input(("Kaça elemanlı?")))
 liste=[]
-#fiboacci serisi ilk iki tane 1 le başlar bunu ekrana yansıtmak için
-#listeye 1 sayısını ekledim
+
 for i in range(0,n):
         liste.append(fibonacci(i))
 
